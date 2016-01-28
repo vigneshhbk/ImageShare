@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.finalproject.ViewAlbumActivity">
+    <item android:id="@+id/menu_AddImage"
+        android:title="@string/menuAddImage"
+        app:showAsAction="collapseActionView" />
+
+    <item android:id="@+id/menu_ViewSharedUsers"
+        android:title="@string/menuViewSharedUsers"
+        app:showAsAction="collapseActionView"></item>
+
+    <item android:id="@+id/menu_InviteUser"
+        android:title="@string/menuInviteUser"
+        app:showAsAction="collapseActionView"></item>
+</menu>

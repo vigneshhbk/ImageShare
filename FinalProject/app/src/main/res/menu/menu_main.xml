@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/menu_inbox"
+        android:title="@string/menuInbox"
+        app:showAsAction="collapseActionView"/>
+
+    <!-- Location Found -->
+    <item android:id="@+id/menu_compose"
+        android:title="@string/menuCompose"
+        app:showAsAction="collapseActionView" />
+
+    <item android:id="@+id/menu_signOut"
+        android:title="@string/signOut"
+        app:showAsAction="collapseActionView"></item>
+
+    <item android:id="@+id/menu_Albums"
+        android:title="@string/menuAlbum"
+        app:showAsAction="collapseActionView"></item>
+
+    <item android:id="@+id/menu_UpdateProfile"
+        android:title="@string/menuUpdateProfile"
+        app:showAsAction="collapseActionView"></item>
+</menu>
